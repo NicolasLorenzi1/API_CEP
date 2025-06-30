@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="principal">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoBGCfBTDL-sHFj2kWebAs9jB5qtQuGfYRQ&s" alt="Logo">
+    <h1>Consulta de CEP</h1>
+    
+    <div class="form-group">
+        <label for="cep">Digite o CEP (somente números):</label>
+        <input type="text" id="cep" maxlength="8" placeholder="Ex: 01001000">
+    </div>
+
+    <h2>Dados do Endereço</h2>
+    <div class="form-group">
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro" readonly>
+    </div>
+    <div class="form-group">
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" readonly>
+    </div>
+    <div class="form-group">
+        <label for="localidade">Cidade:</label>
+        <input type="text" id="localidade" readonly>
+    </div>
+    <div class="form-group">
+        <label for="uf">UF:</label>
+        <input type="text" id="uf" readonly>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
