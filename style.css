@@ -82,3 +82,19 @@ input[type="text"]:focus {
     text-align: left;
     font-size: 14px;
 }
+
+#nome {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    margin-bottom: 15px;
+}
+
+#nome:focus {
+    outline: none;
+    border-color: #2e7d32;
+    background-color: #fff;
+}
